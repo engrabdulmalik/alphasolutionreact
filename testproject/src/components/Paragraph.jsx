@@ -1,17 +1,14 @@
 import React from "react";
+import Button from "./Button";
 
 const Paragraph = (props) => {
   return (
     <>
-      <h1>My First Paragraph</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolore
-        deleniti repellendus voluptatum unde tenetur quod delectus porro
-        recusandae vel, repellat error natus officia voluptatem aut nulla sit
-        rem eius.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ex omnis?
+        Magnam est quo animi aperiam possimus blanditiis veniam esse, pariatur,
+        aut cupiditate necessitatibus eum suscipit fugiat labore quia a.
       </p>
-
-      <h1>{props.test}</h1>
     </>
   );
 };
