@@ -6,8 +6,8 @@ function App() {
   return (
     <>
    
-     {/* <Button test={test}/>
-    <Paragraph test={test} /> */}
+     <Button test={test}/>
+    <Paragraph test={test} />
     </>
   );
 }
